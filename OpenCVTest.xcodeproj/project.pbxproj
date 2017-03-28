@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		041E9FC01E826F3300DB170D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FBF1E826F3300DB170D /* main.m */; };
 		041E9FC31E826F3300DB170D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FC21E826F3300DB170D /* AppDelegate.m */; };
-		041E9FC61E826F3300DB170D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FC51E826F3300DB170D /* ViewController.m */; };
+		041E9FC61E826F3300DB170D /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FC51E826F3300DB170D /* ViewController.mm */; };
 		041E9FC91E826F3300DB170D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041E9FC71E826F3300DB170D /* Main.storyboard */; };
 		041E9FCB1E826F3300DB170D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041E9FCA1E826F3300DB170D /* Assets.xcassets */; };
 		041E9FCE1E826F3300DB170D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041E9FCC1E826F3300DB170D /* LaunchScreen.storyboard */; };
 		041E9FD91E826F3300DB170D /* OpenCVTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FD81E826F3300DB170D /* OpenCVTestTests.m */; };
 		041E9FE41E826F3300DB170D /* OpenCVTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FE31E826F3300DB170D /* OpenCVTestUITests.m */; };
+		041E9FF41E8280A200DB170D /* UIImage+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FF31E8280A200DB170D /* UIImage+UIView.m */; };
+		04AA864F1E8A72C900514B25 /* FakeAnimationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04AA864E1E8A72C900514B25 /* FakeAnimationViewController.mm */; };
+		04AA86911E8A766B00514B25 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA86901E8A766B00514B25 /* UIView+Addition.m */; };
+		04B117A51E837C9C0005FEEB /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B117A21E837C9C0005FEEB /* FBShimmeringLayer.m */; };
+		04B117A61E837C9C0005FEEB /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B117A41E837C9C0005FEEB /* FBShimmeringView.m */; };
+		08F76EBCE97EAC6DB9A83DAC /* libPods-OpenCVTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C04041FE09F4025EA6FF7E0 /* libPods-OpenCVTest.a */; };
+		EAA3A79DA7D60C76D150E37A /* libPods-OpenCVTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAA2F4F7EB4DBF888277524 /* libPods-OpenCVTestTests.a */; };
+		FAD46C772F3D7F3DDE5EBE84 /* libPods-OpenCVTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C757D2A186DE397FD14C2 /* libPods-OpenCVTestUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03261733FAC54176D6750A91 /* Pods-OpenCVTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVTest/Pods-OpenCVTest.release.xcconfig"; sourceTree = "<group>"; };
 		041E9FBB1E826F3300DB170D /* OpenCVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041E9FBF1E826F3300DB170D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		041E9FC11E826F3300DB170D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		041E9FC21E826F3300DB170D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		041E9FC41E826F3300DB170D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		041E9FC51E826F3300DB170D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		041E9FC51E826F3300DB170D /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		041E9FC81E826F3300DB170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041E9FCA1E826F3300DB170D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041E9FCD1E826F3300DB170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,26 @@
 		041E9FDF1E826F3300DB170D /* OpenCVTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041E9FE31E826F3300DB170D /* OpenCVTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVTestUITests.m; sourceTree = "<group>"; };
 		041E9FE51E826F3300DB170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041E9FF21E8280A200DB170D /* UIImage+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIView.h"; sourceTree = "<group>"; };
+		041E9FF31E8280A200DB170D /* UIImage+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIView.m"; sourceTree = "<group>"; };
+		04AA864D1E8A72C900514B25 /* FakeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeAnimationViewController.h; sourceTree = "<group>"; };
+		04AA864E1E8A72C900514B25 /* FakeAnimationViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FakeAnimationViewController.mm; sourceTree = "<group>"; };
+		04AA868F1E8A766B00514B25 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		04AA86901E8A766B00514B25 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		04B1179F1E837C9C0005FEEB /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		04B117A01E837C9C0005FEEB /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		04B117A11E837C9C0005FEEB /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		04B117A21E837C9C0005FEEB /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		04B117A31E837C9C0005FEEB /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		04B117A41E837C9C0005FEEB /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		2CAA2F4F7EB4DBF888277524 /* libPods-OpenCVTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCVTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6856B394343433BD233F8A34 /* Pods-OpenCVTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVTestTests/Pods-OpenCVTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DFC3AEB885A4EAB7D56AF95 /* Pods-OpenCVTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVTestTests/Pods-OpenCVTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75092A2C38AD1882EDC3DD32 /* Pods-OpenCVTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVTest/Pods-OpenCVTest.debug.xcconfig"; sourceTree = "<group>"; };
+		78D7D6A180B849072DCA21A6 /* Pods-OpenCVTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVTestUITests/Pods-OpenCVTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C8E685F458F9B04B21696CE /* Pods-OpenCVTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVTestUITests/Pods-OpenCVTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C04041FE09F4025EA6FF7E0 /* libPods-OpenCVTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCVTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22C757D2A186DE397FD14C2 /* libPods-OpenCVTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCVTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F76EBCE97EAC6DB9A83DAC /* libPods-OpenCVTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA3A79DA7D60C76D150E37A /* libPods-OpenCVTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD46C772F3D7F3DDE5EBE84 /* libPods-OpenCVTestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +117,8 @@
 				041E9FD71E826F3300DB170D /* OpenCVTestTests */,
 				041E9FE21E826F3300DB170D /* OpenCVTestUITests */,
 				041E9FBC1E826F3300DB170D /* Products */,
+				4597EFE69BF32E41E0039AA3 /* Pods */,
+				F1CF980D1A714FDE71831D8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +135,22 @@
 		041E9FBD1E826F3300DB170D /* OpenCVTest */ = {
 			isa = PBXGroup;
 			children = (
+				04AA868F1E8A766B00514B25 /* UIView+Addition.h */,
+				04AA86901E8A766B00514B25 /* UIView+Addition.m */,
+				04B1179E1E837C9C0005FEEB /* FBShimmering */,
+				04AA864D1E8A72C900514B25 /* FakeAnimationViewController.h */,
+				04AA864E1E8A72C900514B25 /* FakeAnimationViewController.mm */,
 				041E9FC11E826F3300DB170D /* AppDelegate.h */,
 				041E9FC21E826F3300DB170D /* AppDelegate.m */,
 				041E9FC41E826F3300DB170D /* ViewController.h */,
-				041E9FC51E826F3300DB170D /* ViewController.m */,
+				041E9FC51E826F3300DB170D /* ViewController.mm */,
 				041E9FC71E826F3300DB170D /* Main.storyboard */,
 				041E9FCA1E826F3300DB170D /* Assets.xcassets */,
 				041E9FCC1E826F3300DB170D /* LaunchScreen.storyboard */,
 				041E9FCF1E826F3300DB170D /* Info.plist */,
 				041E9FBE1E826F3300DB170D /* Supporting Files */,
+				041E9FF21E8280A200DB170D /* UIImage+UIView.h */,
+				041E9FF31E8280A200DB170D /* UIImage+UIView.m */,
 			);
 			path = OpenCVTest;
 			sourceTree = "<group>";
@@ -140,6 +181,42 @@
 			path = OpenCVTestUITests;
 			sourceTree = "<group>";
 		};
+		04B1179E1E837C9C0005FEEB /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				04B1179F1E837C9C0005FEEB /* FBShimmering-Prefix.pch */,
+				04B117A01E837C9C0005FEEB /* FBShimmering.h */,
+				04B117A11E837C9C0005FEEB /* FBShimmeringLayer.h */,
+				04B117A21E837C9C0005FEEB /* FBShimmeringLayer.m */,
+				04B117A31E837C9C0005FEEB /* FBShimmeringView.h */,
+				04B117A41E837C9C0005FEEB /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
+			sourceTree = "<group>";
+		};
+		4597EFE69BF32E41E0039AA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75092A2C38AD1882EDC3DD32 /* Pods-OpenCVTest.debug.xcconfig */,
+				03261733FAC54176D6750A91 /* Pods-OpenCVTest.release.xcconfig */,
+				6DFC3AEB885A4EAB7D56AF95 /* Pods-OpenCVTestTests.debug.xcconfig */,
+				6856B394343433BD233F8A34 /* Pods-OpenCVTestTests.release.xcconfig */,
+				78D7D6A180B849072DCA21A6 /* Pods-OpenCVTestUITests.debug.xcconfig */,
+				7C8E685F458F9B04B21696CE /* Pods-OpenCVTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1CF980D1A714FDE71831D8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C04041FE09F4025EA6FF7E0 /* libPods-OpenCVTest.a */,
+				2CAA2F4F7EB4DBF888277524 /* libPods-OpenCVTestTests.a */,
+				A22C757D2A186DE397FD14C2 /* libPods-OpenCVTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041E9FE81E826F3300DB170D /* Build configuration list for PBXNativeTarget "OpenCVTest" */;
 			buildPhases = (
+				B76DD308342D64EC0E7BFBCF /* [CP] Check Pods Manifest.lock */,
 				041E9FB71E826F3300DB170D /* Sources */,
 				041E9FB81E826F3300DB170D /* Frameworks */,
 				041E9FB91E826F3300DB170D /* Resources */,
+				7E46401EA436AB3DA7D6937A /* [CP] Embed Pods Frameworks */,
+				ACFE05331EF94B76103ACA5B /* [CP] Copy Pods Resources */,
+				041E9FF51E828F4700DB170D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -164,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041E9FEB1E826F3300DB170D /* Build configuration list for PBXNativeTarget "OpenCVTestTests" */;
 			buildPhases = (
+				3B616E4C74D5FB1812563CE4 /* [CP] Check Pods Manifest.lock */,
 				041E9FD01E826F3300DB170D /* Sources */,
 				041E9FD11E826F3300DB170D /* Frameworks */,
 				041E9FD21E826F3300DB170D /* Resources */,
+				BC627B5FEF4E1AB5B92A87F2 /* [CP] Embed Pods Frameworks */,
+				32297DC5958E9FAA95B48762 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041E9FEE1E826F3300DB170D /* Build configuration list for PBXNativeTarget "OpenCVTestUITests" */;
 			buildPhases = (
+				E2EFA66A5FA06DE69B1E5F95 /* [CP] Check Pods Manifest.lock */,
 				041E9FDB1E826F3300DB170D /* Sources */,
 				041E9FDC1E826F3300DB170D /* Frameworks */,
 				041E9FDD1E826F3300DB170D /* Resources */,
+				DE43EE3B8B078F5C357CC459 /* [CP] Embed Pods Frameworks */,
+				423CFBB7B8B673A93BE98C7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +358,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		041E9FF51E828F4700DB170D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "REVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n\"${BUILD_SCRIPT_PATH}\"\nelse\necho \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi";
+		};
+		32297DC5958E9FAA95B48762 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVTestTests/Pods-OpenCVTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B616E4C74D5FB1812563CE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		423CFBB7B8B673A93BE98C7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVTestUITests/Pods-OpenCVTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E46401EA436AB3DA7D6937A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVTest/Pods-OpenCVTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACFE05331EF94B76103ACA5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVTest/Pods-OpenCVTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B76DD308342D64EC0E7BFBCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC627B5FEF4E1AB5B92A87F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVTestTests/Pods-OpenCVTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE43EE3B8B078F5C357CC459 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVTestUITests/Pods-OpenCVTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2EFA66A5FA06DE69B1E5F95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		041E9FB71E826F3300DB170D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041E9FC61E826F3300DB170D /* ViewController.m in Sources */,
+				04AA864F1E8A72C900514B25 /* FakeAnimationViewController.mm in Sources */,
+				041E9FF41E8280A200DB170D /* UIImage+UIView.m in Sources */,
+				04B117A61E837C9C0005FEEB /* FBShimmeringView.m in Sources */,
+				041E9FC61E826F3300DB170D /* ViewController.mm in Sources */,
+				04AA86911E8A766B00514B25 /* UIView+Addition.m in Sources */,
+				04B117A51E837C9C0005FEEB /* FBShimmeringLayer.m in Sources */,
 				041E9FC31E826F3300DB170D /* AppDelegate.m in Sources */,
 				041E9FC01E826F3300DB170D /* main.m in Sources */,
 			);
@@ -423,10 +666,12 @@
 		};
 		041E9FE91E826F3300DB170D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75092A2C38AD1882EDC3DD32 /* Pods-OpenCVTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MBGN3F457N;
 				INFOPLIST_FILE = OpenCVTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.provence.OpenCVTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,10 +680,12 @@
 		};
 		041E9FEA1E826F3300DB170D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03261733FAC54176D6750A91 /* Pods-OpenCVTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MBGN3F457N;
 				INFOPLIST_FILE = OpenCVTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.provence.OpenCVTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +694,7 @@
 		};
 		041E9FEC1E826F3300DB170D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFC3AEB885A4EAB7D56AF95 /* Pods-OpenCVTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = MBGN3F457N;
@@ -460,6 +708,7 @@
 		};
 		041E9FED1E826F3300DB170D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6856B394343433BD233F8A34 /* Pods-OpenCVTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = MBGN3F457N;
@@ -473,6 +722,7 @@
 		};
 		041E9FEF1E826F3300DB170D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D7D6A180B849072DCA21A6 /* Pods-OpenCVTestUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = MBGN3F457N;
 				INFOPLIST_FILE = OpenCVTestUITests/Info.plist;
@@ -485,6 +735,7 @@
 		};
 		041E9FF01E826F3300DB170D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8E685F458F9B04B21696CE /* Pods-OpenCVTestUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = MBGN3F457N;
 				INFOPLIST_FILE = OpenCVTestUITests/Info.plist;
@@ -514,6 +765,7 @@
 				041E9FEA1E826F3300DB170D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041E9FEB1E826F3300DB170D /* Build configuration list for PBXNativeTarget "OpenCVTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +774,7 @@
 				041E9FED1E826F3300DB170D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041E9FEE1E826F3300DB170D /* Build configuration list for PBXNativeTarget "OpenCVTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +783,7 @@
 				041E9FF01E826F3300DB170D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
