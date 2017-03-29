@@ -10,4 +10,5 @@
 
 @interface UIImage (UIView)
 + (UIImage *)imageWithView:(UIView *)view;
+- (NSArray *)scanImage;
 @end

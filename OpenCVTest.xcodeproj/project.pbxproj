@@ -15,11 +15,10 @@
 		041E9FCE1E826F3300DB170D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041E9FCC1E826F3300DB170D /* LaunchScreen.storyboard */; };
 		041E9FD91E826F3300DB170D /* OpenCVTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FD81E826F3300DB170D /* OpenCVTestTests.m */; };
 		041E9FE41E826F3300DB170D /* OpenCVTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FE31E826F3300DB170D /* OpenCVTestUITests.m */; };
-		041E9FF41E8280A200DB170D /* UIImage+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FF31E8280A200DB170D /* UIImage+UIView.m */; };
+		041E9FF41E8280A200DB170D /* UIImage+UIView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 041E9FF31E8280A200DB170D /* UIImage+UIView.mm */; };
 		04AA864F1E8A72C900514B25 /* FakeAnimationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04AA864E1E8A72C900514B25 /* FakeAnimationViewController.mm */; };
 		04AA86911E8A766B00514B25 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA86901E8A766B00514B25 /* UIView+Addition.m */; };
-		04B117A51E837C9C0005FEEB /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B117A21E837C9C0005FEEB /* FBShimmeringLayer.m */; };
-		04B117A61E837C9C0005FEEB /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B117A41E837C9C0005FEEB /* FBShimmeringView.m */; };
+		04AA86A41E8BB9B300514B25 /* UIView+MaskAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA86A31E8BB9B300514B25 /* UIView+MaskAnimation.m */; };
 		08F76EBCE97EAC6DB9A83DAC /* libPods-OpenCVTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C04041FE09F4025EA6FF7E0 /* libPods-OpenCVTest.a */; };
 		EAA3A79DA7D60C76D150E37A /* libPods-OpenCVTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAA2F4F7EB4DBF888277524 /* libPods-OpenCVTestTests.a */; };
 		FAD46C772F3D7F3DDE5EBE84 /* libPods-OpenCVTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C757D2A186DE397FD14C2 /* libPods-OpenCVTestUITests.a */; };
@@ -61,17 +60,13 @@
 		041E9FE31E826F3300DB170D /* OpenCVTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVTestUITests.m; sourceTree = "<group>"; };
 		041E9FE51E826F3300DB170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041E9FF21E8280A200DB170D /* UIImage+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIView.h"; sourceTree = "<group>"; };
-		041E9FF31E8280A200DB170D /* UIImage+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIView.m"; sourceTree = "<group>"; };
+		041E9FF31E8280A200DB170D /* UIImage+UIView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+UIView.mm"; sourceTree = "<group>"; };
 		04AA864D1E8A72C900514B25 /* FakeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeAnimationViewController.h; sourceTree = "<group>"; };
 		04AA864E1E8A72C900514B25 /* FakeAnimationViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FakeAnimationViewController.mm; sourceTree = "<group>"; };
 		04AA868F1E8A766B00514B25 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
 		04AA86901E8A766B00514B25 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
-		04B1179F1E837C9C0005FEEB /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
-		04B117A01E837C9C0005FEEB /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
-		04B117A11E837C9C0005FEEB /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
-		04B117A21E837C9C0005FEEB /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
-		04B117A31E837C9C0005FEEB /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
-		04B117A41E837C9C0005FEEB /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		04AA86A21E8BB9B300514B25 /* UIView+MaskAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MaskAnimation.h"; sourceTree = "<group>"; };
+		04AA86A31E8BB9B300514B25 /* UIView+MaskAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MaskAnimation.m"; sourceTree = "<group>"; };
 		2CAA2F4F7EB4DBF888277524 /* libPods-OpenCVTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCVTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6856B394343433BD233F8A34 /* Pods-OpenCVTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVTestTests/Pods-OpenCVTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		6DFC3AEB885A4EAB7D56AF95 /* Pods-OpenCVTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVTestTests/Pods-OpenCVTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,7 +132,10 @@
 			children = (
 				04AA868F1E8A766B00514B25 /* UIView+Addition.h */,
 				04AA86901E8A766B00514B25 /* UIView+Addition.m */,
-				04B1179E1E837C9C0005FEEB /* FBShimmering */,
+				041E9FF21E8280A200DB170D /* UIImage+UIView.h */,
+				041E9FF31E8280A200DB170D /* UIImage+UIView.mm */,
+				04AA86A21E8BB9B300514B25 /* UIView+MaskAnimation.h */,
+				04AA86A31E8BB9B300514B25 /* UIView+MaskAnimation.m */,
 				04AA864D1E8A72C900514B25 /* FakeAnimationViewController.h */,
 				04AA864E1E8A72C900514B25 /* FakeAnimationViewController.mm */,
 				041E9FC11E826F3300DB170D /* AppDelegate.h */,
@@ -149,8 +147,6 @@
 				041E9FCC1E826F3300DB170D /* LaunchScreen.storyboard */,
 				041E9FCF1E826F3300DB170D /* Info.plist */,
 				041E9FBE1E826F3300DB170D /* Supporting Files */,
-				041E9FF21E8280A200DB170D /* UIImage+UIView.h */,
-				041E9FF31E8280A200DB170D /* UIImage+UIView.m */,
 			);
 			path = OpenCVTest;
 			sourceTree = "<group>";
@@ -179,19 +175,6 @@
 				041E9FE51E826F3300DB170D /* Info.plist */,
 			);
 			path = OpenCVTestUITests;
-			sourceTree = "<group>";
-		};
-		04B1179E1E837C9C0005FEEB /* FBShimmering */ = {
-			isa = PBXGroup;
-			children = (
-				04B1179F1E837C9C0005FEEB /* FBShimmering-Prefix.pch */,
-				04B117A01E837C9C0005FEEB /* FBShimmering.h */,
-				04B117A11E837C9C0005FEEB /* FBShimmeringLayer.h */,
-				04B117A21E837C9C0005FEEB /* FBShimmeringLayer.m */,
-				04B117A31E837C9C0005FEEB /* FBShimmeringView.h */,
-				04B117A41E837C9C0005FEEB /* FBShimmeringView.m */,
-			);
-			path = FBShimmering;
 			sourceTree = "<group>";
 		};
 		4597EFE69BF32E41E0039AA3 /* Pods */ = {
@@ -515,12 +498,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AA864F1E8A72C900514B25 /* FakeAnimationViewController.mm in Sources */,
-				041E9FF41E8280A200DB170D /* UIImage+UIView.m in Sources */,
-				04B117A61E837C9C0005FEEB /* FBShimmeringView.m in Sources */,
+				041E9FF41E8280A200DB170D /* UIImage+UIView.mm in Sources */,
 				041E9FC61E826F3300DB170D /* ViewController.mm in Sources */,
 				04AA86911E8A766B00514B25 /* UIView+Addition.m in Sources */,
-				04B117A51E837C9C0005FEEB /* FBShimmeringLayer.m in Sources */,
 				041E9FC31E826F3300DB170D /* AppDelegate.m in Sources */,
+				04AA86A41E8BB9B300514B25 /* UIView+MaskAnimation.m in Sources */,
 				041E9FC01E826F3300DB170D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
